@@ -39,7 +39,7 @@ public class JobTest {
         Job job1 = new Job("Product tester"), new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         Job job2 = new Job("Product tester"), new Employer("Acme"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
-// use assertFalse to check that the equals method returns false because the Jobs IDs are different
+      // use assertFalse to check that the equals method returns false because the Jobs IDs are different
         assertFalse(job1.equals(job2));
     }
     
