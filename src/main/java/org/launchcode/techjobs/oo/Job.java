@@ -23,6 +23,7 @@ public class Job {
     //Constructor to initialize all five fields
     public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency){
         this(); //Call constructor to initialize 'id' field
+        this.name = name;
         this.employer = employer;
         this.location = location;
         this.positionType = positionType;
